@@ -2,10 +2,15 @@ Package: regexcite.jjadeb
 Title: Make Regular Expressions More Exciting
 Version: 0.0.0.9000
 Authors@R: 
-    person("Jade", "Bouchard", , , role = c("aut", "cre"))
+    person("Jade", "Bouchard", , "jtakbouchard@gmail.com", role = c("aut", "cre"))
 Description: Assignment 5 for UBC's DSCI 310 course. Convenience functions to make some common tasks with string
     manipulation and regular expressions a bit easier.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    stringr
